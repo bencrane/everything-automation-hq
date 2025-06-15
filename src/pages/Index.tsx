@@ -38,6 +38,27 @@ const automationSystems = [
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
+      {/* Header */}
+      <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
+        <div className="max-w-6xl mx-auto px-6 py-4">
+          <div className="flex items-center justify-between">
+            <div className="font-mono text-lg font-medium text-gray-900">
+              Everything Automation
+            </div>
+            
+            <nav className="hidden md:flex items-center space-x-8">
+              <a href="#" className="text-sm text-gray-600 font-medium">System Library</a>
+              <a href="#" className="text-sm text-gray-600 font-medium">How It Works</a>
+              <a href="#" className="text-sm text-gray-600 font-medium">Book a Call</a>
+            </nav>
+            
+            <Button size="sm" className="text-sm font-medium">
+              Get Started
+            </Button>
+          </div>
+        </div>
+      </header>
+
       {/* Hero Section */}
       <section className="max-w-4xl mx-auto px-6 pt-20 pb-16">
         <div className="text-center space-y-8">
@@ -182,11 +203,51 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 py-12">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="font-mono text-sm text-gray-500">
-            Everything Automation © 2024
-          </p>
+      <footer className="bg-white border-t border-gray-200">
+        <div className="max-w-6xl mx-auto px-6 py-12">
+          <div className="flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
+            {/* Left side */}
+            <div className="space-y-2">
+              <div className="font-mono text-sm font-medium text-gray-900">
+                Everything Automation
+              </div>
+              <p className="text-sm text-gray-600">
+                Automation systems delivered fast.
+              </p>
+            </div>
+            
+            {/* Right side - Links */}
+            <div className="flex space-x-16">
+              {/* Column 1 */}
+              <div className="space-y-3">
+                <a href="#" className="block text-sm text-gray-600 font-medium">About</a>
+                <a href="#" className="block text-sm text-gray-600 font-medium">Contact</a>
+                <a href="#" className="block text-sm text-gray-600 font-medium">Terms</a>
+              </div>
+              
+              {/* Column 2 */}
+              <div className="space-y-3">
+                <a href="#" className="block text-sm text-gray-600 font-medium">Automation Systems</a>
+                <a href="#" className="block text-sm text-gray-600 font-medium">How It Works</a>
+                <a href="#" className="block text-sm text-gray-600 font-medium">Book a Call</a>
+              </div>
+            </div>
+          </div>
+          
+          {/* Ready to Automate section */}
+          <div className="mt-8 pt-8 border-t border-gray-200">
+            <p className="text-sm text-gray-600 mb-4">
+              Ready to automate? Contact{" "}
+              <a href="mailto:team@everythingautomation.com" className="text-gray-900 font-medium">
+                team@everythingautomation.com
+              </a>
+            </p>
+            
+            {/* Copyright */}
+            <p className="text-xs text-gray-500">
+              © 2025 Everything Automation. All rights reserved.
+            </p>
+          </div>
         </div>
       </footer>
     </div>
