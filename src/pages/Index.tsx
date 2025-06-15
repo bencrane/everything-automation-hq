@@ -204,47 +204,47 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="bg-white border-t border-gray-200">
-        <div className="max-w-6xl mx-auto px-6 py-12">
-          <div className="flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
+        <div className="max-w-6xl mx-auto px-6 py-16">
+          <div className="flex flex-col md:flex-row justify-between items-start space-y-12 md:space-y-0">
             {/* Left side */}
-            <div className="space-y-2">
-              <div className="font-mono text-sm font-medium text-gray-900">
+            <div className="space-y-3">
+              <div className="font-mono text-lg font-medium text-gray-900">
                 Everything Automation
               </div>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-gray-600 leading-relaxed">
                 Automation systems delivered fast.
               </p>
             </div>
             
             {/* Right side - Links */}
-            <div className="flex space-x-16">
+            <div className="flex space-x-20">
               {/* Column 1 */}
-              <div className="space-y-3">
-                <a href="#" className="block text-sm text-gray-600 font-medium">About</a>
-                <a href="#" className="block text-sm text-gray-600 font-medium">Contact</a>
-                <a href="#" className="block text-sm text-gray-600 font-medium">Terms</a>
+              <div className="space-y-4">
+                <a href="#" className="block text-sm text-gray-600 font-medium hover:text-gray-900 transition-colors">About</a>
+                <a href="#" className="block text-sm text-gray-600 font-medium hover:text-gray-900 transition-colors">Contact</a>
+                <a href="#" className="block text-sm text-gray-600 font-medium hover:text-gray-900 transition-colors">Terms</a>
               </div>
               
               {/* Column 2 */}
-              <div className="space-y-3">
-                <a href="#" className="block text-sm text-gray-600 font-medium">Automation Systems</a>
-                <a href="#" className="block text-sm text-gray-600 font-medium">How It Works</a>
-                <a href="#" className="block text-sm text-gray-600 font-medium">Book a Call</a>
+              <div className="space-y-4">
+                <a href="#" className="block text-sm text-gray-600 font-medium hover:text-gray-900 transition-colors">System Library</a>
+                <a href="#" className="block text-sm text-gray-600 font-medium hover:text-gray-900 transition-colors">How It Works</a>
+                <a href="#" className="block text-sm text-gray-600 font-medium hover:text-gray-900 transition-colors">Book a Call</a>
               </div>
             </div>
           </div>
           
           {/* Ready to Automate section */}
-          <div className="mt-8 pt-8 border-t border-gray-200">
-            <p className="text-sm text-gray-600 mb-4">
+          <div className="mt-12 pt-12 border-t border-gray-200">
+            <p className="text-sm text-gray-600 leading-relaxed mb-6">
               Ready to automate? Contact{" "}
-              <a href="mailto:team@everythingautomation.com" className="text-gray-900 font-medium">
+              <a href="mailto:team@everythingautomation.com" className="text-gray-900 font-medium hover:text-gray-700 transition-colors">
                 team@everythingautomation.com
               </a>
             </p>
             
             {/* Copyright */}
-            <p className="text-xs text-gray-500">
+            <p className="text-xs text-gray-400 font-light">
               © 2025 Everything Automation. All rights reserved.
             </p>
           </div>
