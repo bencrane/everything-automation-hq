@@ -234,9 +234,9 @@ const Index = () => {
             </div>
           </div>
           
-          {/* Ready to Automate section */}
-          <div className="mt-10 pt-8 border-t border-gray-200">
-            <p className="text-sm text-gray-600 leading-relaxed mb-4">
+          {/* Contact and Copyright section */}
+          <div className="mt-12">
+            <p className="text-sm text-gray-600 font-light leading-relaxed mb-4">
               Ready to automate? Contact{" "}
               <a href="mailto:team@everythingautomation.com" className="text-gray-900 font-medium hover:text-gray-700 transition-colors">
                 team@everythingautomation.com
