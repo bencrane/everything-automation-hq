@@ -74,7 +74,7 @@ const Index = () => {
               Request a Strategy Call
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button variant="outline" size="lg" className="h-12 px-8 text-base font-medium border-gray-700 text-white hover:bg-gray-900">
+            <Button variant="outline" size="lg" className="h-12 px-8 text-base font-medium border-gray-600 bg-transparent text-white hover:bg-gray-800 hover:text-white">
               Browse System Library
             </Button>
           </div>
@@ -193,7 +193,7 @@ const Index = () => {
               Request a Strategy Call
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button variant="outline" size="lg" className="h-12 px-8 text-base font-medium border-gray-700 text-white hover:bg-gray-900">
+            <Button variant="outline" size="lg" className="h-12 px-8 text-base font-medium border-gray-600 bg-transparent text-white hover:bg-gray-800 hover:text-white">
               Browse Full System Library
             </Button>
           </div>
