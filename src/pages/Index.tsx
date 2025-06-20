@@ -1,4 +1,3 @@
-
 import { ArrowRight, Zap, GitBranch, Users, Mail, Database, Workflow } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -64,15 +63,14 @@ const Index = () => {
         <div className="text-center space-y-8">
           <h1 className="text-5xl md:text-6xl font-light tracking-tight text-gray-900 leading-tight">
             Automation systems that
-            <span className="block font-medium">actually work.</span>
+            <span className="block font-medium">actually drive results.</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Pre-scoped, modular automation systems for agency owners, course creators, 
-            and bootstrapped founders. Built on n8n. No dashboards. No fluff.
+            Proven automation systems that streamline operations, grow pipeline, and boost revenue—so you can focus on everything else.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
             <Button size="lg" className="h-12 px-8 text-base font-medium">
-              Book a Scoping Call
+              Book a Free Automation Strategy Call
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button variant="outline" size="lg" className="h-12 px-8 text-base font-medium">
@@ -183,16 +181,15 @@ const Index = () => {
       <section className="max-w-4xl mx-auto px-6 py-20">
         <div className="text-center space-y-8">
           <h2 className="text-4xl font-light text-gray-900 leading-tight">
-            Ready to automate your
-            <span className="block font-medium">most repetitive work?</span>
+            Ready to leverage automation
+            <span className="block font-medium">in your business?</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Stop building automation systems from scratch. Get pre-scoped, tested systems 
-            that integrate with your existing tools and workflows.
+            Replace messy, manual, and haphazard processes with tried-and-true automation systems configured specifically for your business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button size="lg" className="h-12 px-8 text-base font-medium">
-              Book a Scoping Call
+              Book a Free Automation Strategy Call
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button variant="outline" size="lg" className="h-12 px-8 text-base font-medium">
