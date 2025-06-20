@@ -204,10 +204,10 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="bg-white border-t border-gray-200">
-        <div className="max-w-6xl mx-auto px-6 py-12">
-          <div className="flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
+        <div className="max-w-6xl mx-auto px-6 py-8">
+          <div className="flex flex-col md:flex-row justify-between items-start">
             {/* Left side */}
-            <div className="space-y-3">
+            <div className="space-y-2 mb-6 md:mb-0">
               <div className="font-mono text-lg font-medium text-gray-900">
                 Everything Automation
               </div>
@@ -217,16 +217,16 @@ const Index = () => {
             </div>
             
             {/* Right side - Links */}
-            <div className="flex space-x-16">
+            <div className="flex space-x-12">
               {/* Column 1 */}
-              <div className="space-y-3">
+              <div className="space-y-2">
                 <a href="#" className="block text-sm text-gray-600 font-medium hover:text-gray-900 transition-colors">About</a>
                 <a href="#" className="block text-sm text-gray-600 font-medium hover:text-gray-900 transition-colors">Contact</a>
                 <a href="#" className="block text-sm text-gray-600 font-medium hover:text-gray-900 transition-colors">Terms</a>
               </div>
               
               {/* Column 2 */}
-              <div className="space-y-3">
+              <div className="space-y-2">
                 <a href="#" className="block text-sm text-gray-600 font-medium hover:text-gray-900 transition-colors">System Library</a>
                 <a href="#" className="block text-sm text-gray-600 font-medium hover:text-gray-900 transition-colors">How It Works</a>
                 <a href="#" className="block text-sm text-gray-600 font-medium hover:text-gray-900 transition-colors">Book a Call</a>
@@ -235,8 +235,8 @@ const Index = () => {
           </div>
           
           {/* Contact and Copyright section */}
-          <div className="mt-12">
-            <p className="text-sm text-gray-600 font-light leading-relaxed mb-4">
+          <div className="mt-6 space-y-2">
+            <p className="text-sm text-gray-600 font-light leading-relaxed">
               Ready to automate? Contact{" "}
               <a href="mailto:team@everythingautomation.com" className="text-gray-900 font-medium hover:text-gray-700 transition-colors">
                 team@everythingautomation.com
