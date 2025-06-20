@@ -71,7 +71,7 @@ const Index = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
             <Button size="lg" className="h-12 px-8 text-base font-medium bg-white text-black hover:bg-gray-200">
-              Book a Free Automation Strategy Call
+              Request a Strategy Call
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button variant="outline" size="lg" className="h-12 px-8 text-base font-medium border-gray-700 text-white hover:bg-gray-900">
@@ -190,7 +190,7 @@ const Index = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button size="lg" className="h-12 px-8 text-base font-medium bg-white text-black hover:bg-gray-200">
-              Book a Free Automation Strategy Call
+              Request a Strategy Call
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button variant="outline" size="lg" className="h-12 px-8 text-base font-medium border-gray-700 text-white hover:bg-gray-900">
