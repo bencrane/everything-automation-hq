@@ -1,7 +1,7 @@
 
 import { ArrowRight, Zap, GitBranch, Users, Mail, Database, Workflow } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import RotatingText from "@/components/RotatingText";
+
 const automationSystems = [
   {
     name: "Cold Outreach Follow-up",
@@ -58,21 +58,8 @@ const Index = () => {
       <section className="max-w-4xl mx-auto px-6 pt-20 pb-16">
         <div className="text-center space-y-8">
           <h1 className="text-5xl md:text-6xl font-light tracking-tight text-white leading-tight">
-            <span className="block">Automation systems that</span>
-            <span className="block font-medium">
-              <span className="block w-fit mx-auto">
-                <span className="inline-flex items-baseline gap-2 whitespace-nowrap">
-                  <span className="whitespace-nowrap">actually</span>
-                  <RotatingText
-                    className="whitespace-nowrap"
-                    phrases={["drive results.", "increase revenue.", "lower costs.", "reduce churn."]}
-                    typingSpeed={70}
-                    deletingSpeed={40}
-                    holdTime={3000}
-                  />
-                </span>
-              </span>
-            </span>
+            Automation systems that
+            <span className="block font-medium">actually drive results.</span>
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
             Proven automation systems that streamline operations, grow pipeline, and boost revenue—so you can focus on everything else.
@@ -215,25 +202,25 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black border-t border-gray-800 text-gray-400">
+      <footer className="bg-black border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4">
+          {/* Row 1: Brand left, Contact right */}
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div className="space-y-1">
               <div className="font-mono text-lg font-medium text-white">
                 Everything Automation
               </div>
-              <p>New York, NY</p>
-              <p className="text-sm leading-relaxed">
+              <p className="text-sm text-gray-400 leading-relaxed">
                 Automation systems delivered fast.
               </p>
             </div>
 
-            <div className="text-right">
-              <p className="mb-2">
+            <div className="md:ml-auto md:text-right">
+              <p className="text-sm text-gray-300 font-normal leading-relaxed md:whitespace-nowrap">
                 Ready to automate? Get in touch:{" "}
                 <a
                   href="mailto:team@everythingautomation.com"
-                  className="text-orange-500 font-medium hover:text-orange-400 transition-colors"
+                  className="text-gray-100 font-medium hover:text-gray-200 transition-colors"
                 >
                   team@everythingautomation.com
                 </a>
@@ -241,16 +228,11 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="mt-8 flex justify-between items-center text-sm text-gray-600">
-            <p>© 2025 Everything Automation. All Rights Reserved.</p>
-            <div className="space-x-6">
-              <a href="/terms" className="hover:text-white transition-colors">
-                Terms
-              </a>
-              <a href="/privacy" className="hover:text-white transition-colors">
-                Privacy
-              </a>
-            </div>
+          {/* Row 2: Centered copyright */}
+          <div className="mt-8 text-center">
+            <p className="text-xs text-gray-600 font-light">
+              © 2025 Everything Automation. All rights reserved.
+            </p>
           </div>
         </div>
       </footer>
