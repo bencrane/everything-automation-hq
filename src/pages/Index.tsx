@@ -229,8 +229,11 @@ const Index = () => {
 
             {/* Right: Contact (aligned right) */}
             <div className="md:text-right md:justify-self-end">
-              <p className="text-sm text-gray-400 font-light whitespace-nowrap">
-                Ready to automate? Get in touch: <a href="mailto:team@everythingautomation.com" className="text-white font-medium hover:text-gray-300 transition-colors">team@everythingautomation.com</a>
+              <p className="text-sm text-gray-400 font-light leading-relaxed">
+                Ready to automate? Get in touch:{" "}
+                <a href="mailto:team@everythingautomation.com" className="text-white font-medium hover:text-gray-300 transition-colors">
+                  team@everythingautomation.com
+                </a>
               </p>
             </div>
           </div>
