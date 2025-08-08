@@ -58,15 +58,17 @@ const Index = () => {
       <section className="max-w-4xl mx-auto px-6 pt-20 pb-16">
         <div className="text-center space-y-8">
           <h1 className="text-5xl md:text-6xl font-light tracking-tight text-white leading-tight">
-            Automation systems that
+            <span className="block">Automation systems that</span>
             <span className="block font-medium">
-              actually{" "}
-              <RotatingText
-                phrases={["drive results.", "increase revenue.", "lower costs.", "reduce churn."]}
-                typingSpeed={70}
-                deletingSpeed={40}
-                holdTime={3000}
-              />
+              <span className="inline-flex items-baseline gap-2 whitespace-nowrap">
+                actually
+                <RotatingText
+                  phrases={["drive results.", "increase revenue.", "lower costs.", "reduce churn."]}
+                  typingSpeed={70}
+                  deletingSpeed={40}
+                  holdTime={3000}
+                />
+              </span>
             </span>
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
