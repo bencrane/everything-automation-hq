@@ -60,9 +60,10 @@ const Index = () => {
           <h1 className="text-5xl md:text-6xl font-light tracking-tight text-white leading-tight">
             <span className="block">Automation systems that</span>
             <span className="block font-medium">
-              <span className="inline-flex items-baseline gap-2 whitespace-nowrap">
-                actually
+              <span className="flex justify-center items-baseline gap-2">
+                <span className="whitespace-nowrap">actually</span>
                 <RotatingText
+                  className="whitespace-nowrap"
                   phrases={["drive results.", "increase revenue.", "lower costs.", "reduce churn."]}
                   typingSpeed={70}
                   deletingSpeed={40}
