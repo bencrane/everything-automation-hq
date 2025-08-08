@@ -205,7 +205,7 @@ const Index = () => {
       <footer className="bg-black border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-8">
           {/* Row 1: Brand left, Contact right */}
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 items-stretch gap-4">
             <div className="space-y-1">
               <div className="font-mono text-lg font-medium text-white">
                 Everything Automation
@@ -215,7 +215,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="md:ml-auto md:text-right">
+            <div className="md:text-right">
               <p className="text-sm text-gray-300 font-normal leading-relaxed md:whitespace-nowrap">
                 Ready to automate? Get in touch:{" "}
                 <a
@@ -231,7 +231,7 @@ const Index = () => {
           {/* Row 2: Centered copyright */}
           <div className="mt-8 text-center">
             <p className="text-xs text-gray-600 font-light">
-              © 2025 Everything Automation. All rights reserved.
+              © 2025 Everything Automation. All Rights Reserved.
             </p>
           </div>
         </div>
