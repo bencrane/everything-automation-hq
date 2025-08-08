@@ -209,9 +209,9 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-black border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-8">
-          <div className="flex flex-col md:flex-row justify-between items-start space-y-4 md:space-y-0">
-            {/* Left side */}
-            <div className="space-y-1">
+          <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-4">
+            {/* Left: Logo/Name + Tagline */}
+            <div className="space-y-1 md:justify-self-start">
               <div className="font-mono text-lg font-medium text-white">
                 Everything Automation
               </div>
@@ -219,9 +219,16 @@ const Index = () => {
                 Automation systems delivered fast.
               </p>
             </div>
-            
-            {/* Right side - Contact */}
-            <div className="md:text-right">
+
+            {/* Center: Copyright (centered overall) */}
+            <div className="text-center">
+              <p className="text-xs text-gray-600 font-light">
+                © 2025 Everything Automation. All rights reserved.
+              </p>
+            </div>
+
+            {/* Right: Contact (aligned right) */}
+            <div className="md:text-right md:justify-self-end">
               <p className="text-sm text-gray-400 font-light leading-relaxed">
                 Ready to automate? Get in touch:{" "}
                 <a href="mailto:team@everythingautomation.com" className="text-white font-medium hover:text-gray-300 transition-colors">
@@ -231,13 +238,6 @@ const Index = () => {
             </div>
           </div>
           
-          {/* Footer bottom */}
-          <div className="mt-4">
-            {/* Copyright */}
-            <p className="text-xs text-gray-600 font-light text-center">
-              © 2025 Everything Automation. All rights reserved.
-            </p>
-          </div>
         </div>
       </footer>
     </div>
