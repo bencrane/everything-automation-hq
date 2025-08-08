@@ -220,35 +220,21 @@ const Index = () => {
               </p>
             </div>
             
-            {/* Right side - Links */}
-            <div className="flex space-x-12">
-              {/* Column 1 */}
-              <div className="space-y-2">
-                <a href="#" className="block text-sm text-gray-400 font-medium hover:text-white transition-colors">About</a>
-                <a href="#" className="block text-sm text-gray-400 font-medium hover:text-white transition-colors">Contact</a>
-                <a href="#" className="block text-sm text-gray-400 font-medium hover:text-white transition-colors">Terms</a>
-              </div>
-              
-              {/* Column 2 */}
-              <div className="space-y-2">
-                <a href="#" className="block text-sm text-gray-400 font-medium hover:text-white transition-colors">System Library</a>
-                <a href="#" className="block text-sm text-gray-400 font-medium hover:text-white transition-colors">How It Works</a>
-                <a href="#" className="block text-sm text-gray-400 font-medium hover:text-white transition-colors">Book a Call</a>
-              </div>
+            {/* Right side - Contact */}
+            <div className="md:text-right">
+              <p className="text-sm text-gray-400 font-light leading-relaxed">
+                Ready to automate? Get in touch:{" "}
+                <a href="mailto:team@everythingautomation.com" className="text-white font-medium hover:text-gray-300 transition-colors">
+                  team@everythingautomation.com
+                </a>
+              </p>
             </div>
           </div>
           
-          {/* Contact and Copyright section */}
-          <div className="mt-4 space-y-1">
-            <p className="text-sm text-gray-400 font-light leading-relaxed">
-              Ready to automate? Contact{" "}
-              <a href="mailto:team@everythingautomation.com" className="text-white font-medium hover:text-gray-300 transition-colors">
-                team@everythingautomation.com
-              </a>
-            </p>
-            
+          {/* Footer bottom */}
+          <div className="mt-4">
             {/* Copyright */}
-            <p className="text-xs text-gray-600 font-light">
+            <p className="text-xs text-gray-600 font-light text-center">
               © 2025 Everything Automation. All rights reserved.
             </p>
           </div>
