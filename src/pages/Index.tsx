@@ -46,11 +46,6 @@ const Index = () => {
               Everything Automation
             </div>
             
-            <nav className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-sm text-gray-400 font-medium">System Library</a>
-              <a href="#" className="text-sm text-gray-400 font-medium">How It Works</a>
-              <a href="#" className="text-sm text-gray-400 font-medium">Book a Call</a>
-            </nav>
             
             <Button size="sm" className="text-sm font-medium bg-white text-black hover:bg-gray-200">
               Get Started
