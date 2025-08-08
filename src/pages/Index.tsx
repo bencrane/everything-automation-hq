@@ -1,7 +1,7 @@
 
 import { ArrowRight, Zap, GitBranch, Users, Mail, Database, Workflow } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
+import RotatingText from "@/components/RotatingText";
 const automationSystems = [
   {
     name: "Cold Outreach Follow-up",
@@ -59,7 +59,15 @@ const Index = () => {
         <div className="text-center space-y-8">
           <h1 className="text-5xl md:text-6xl font-light tracking-tight text-white leading-tight">
             Automation systems that
-            <span className="block font-medium">actually drive results.</span>
+            <span className="block font-medium">
+              actually{" "}
+              <RotatingText
+                phrases={["drive results.", "increase revenue.", "lower costs.", "reduce churn."]}
+                typingSpeed={70}
+                deletingSpeed={40}
+                holdTime={3000}
+              />
+            </span>
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
             Proven automation systems that streamline operations, grow pipeline, and boost revenue—so you can focus on everything else.
