@@ -220,12 +220,12 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="md:text-right">
-              <p className="text-sm text-gray-400 font-light leading-relaxed md:whitespace-nowrap">
+            <div className="md:ml-auto md:text-right">
+              <p className="text-sm text-gray-300 font-normal leading-relaxed md:whitespace-nowrap">
                 Ready to automate? Get in touch:{" "}
                 <a
                   href="mailto:team@everythingautomation.com"
-                  className="text-white font-medium hover:text-gray-300 transition-colors"
+                  className="text-gray-100 font-medium hover:text-gray-200 transition-colors"
                 >
                   team@everythingautomation.com
                 </a>
@@ -234,7 +234,7 @@ const Index = () => {
           </div>
 
           {/* Row 2: Centered copyright */}
-          <div className="mt-6 text-center">
+          <div className="mt-8 text-center">
             <p className="text-xs text-gray-600 font-light">
               © 2025 Everything Automation. All rights reserved.
             </p>
