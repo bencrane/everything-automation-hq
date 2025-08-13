@@ -47,9 +47,15 @@ const Index = () => {
             </div>
             
             
-            <Button size="sm" className="text-sm font-medium bg-white text-black hover:bg-gray-200">
-              Get Started
-            </Button>
+            <a
+              href="https://cal.com/team-ea/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button size="sm" className="text-sm font-medium bg-white text-black hover:bg-gray-200">
+                Get Started
+              </Button>
+            </a>
           </div>
         </div>
       </header>
@@ -66,7 +72,7 @@ const Index = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
             <a
-              href="https://cal.com/everything-automation/growth-strategy-30"
+              href="https://cal.com/team-ea/30min"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -188,7 +194,7 @@ const Index = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="https://cal.com/everything-automation/growth-strategy-30"
+              href="https://cal.com/team-ea/30min"
               target="_blank"
               rel="noopener noreferrer"
             >
