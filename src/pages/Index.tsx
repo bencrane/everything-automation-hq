@@ -83,7 +83,7 @@ const Index = () => {
       <section className="max-w-6xl mx-auto px-6 py-16">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-light text-white mb-4">
-            Ready-to-deploy systems
+            Ready-to-Deploy Systems
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
             Each system is pre-scoped with clear inputs, outputs, and delivery timelines. 
@@ -121,11 +121,11 @@ const Index = () => {
       </section>
 
       {/* How it Works */}
-      <section className="bg-gray-950 py-20">
+      <section className="bg-gray-950 py-16">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-light text-white mb-4">
-              How it works
+              How it Works
             </h2>
             <p className="text-lg text-gray-400">
               Straightforward process. Clear deliverables. Working systems.
