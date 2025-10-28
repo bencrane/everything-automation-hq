@@ -1,5 +1,5 @@
 
-import { ArrowRight, Zap, GitBranch, Users, Mail, Database, Workflow, Keyboard, AlertCircle, Network, Clock, ShieldCheck, Calendar, TrendingUp } from "lucide-react";
+import { ArrowRight, Zap, GitBranch, Users, Mail, Database, Workflow, Keyboard, AlertCircle, Network, Clock, ShieldCheck, Calendar, TrendingUp, Wrench, Unlink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
@@ -169,6 +169,62 @@ const Index = () => {
                   Your team spends time on busywork instead of revenue-generating activities.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Usual Alternatives Don't Work */}
+      <section className="max-w-6xl mx-auto px-6 py-16">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl font-light text-foreground mb-4">
+            The Usual Alternatives Don't Work
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Most businesses try one of these paths—and regret it.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-6">
+          <div className="border border-border rounded-lg p-6 bg-card hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200">
+            <div className="flex flex-col items-center text-center">
+              <div className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center mb-4">
+                <Users className="h-6 w-6 text-foreground" />
+              </div>
+              <h3 className="font-mono text-sm font-medium text-foreground mb-3">
+                Hire Engineers
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Full-time automation engineers cost $150K+ per year. Recruiting takes months. Building systems takes longer.
+              </p>
+            </div>
+          </div>
+
+          <div className="border border-border rounded-lg p-6 bg-card hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200">
+            <div className="flex flex-col items-center text-center">
+              <div className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center mb-4">
+                <Wrench className="h-6 w-6 text-foreground" />
+              </div>
+              <h3 className="font-mono text-sm font-medium text-foreground mb-3">
+                Custom Consulting Projects
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Scope creep, timeline delays, and bills that balloon from $20K to $80K. You get a system built for yesterday's needs.
+              </p>
+            </div>
+          </div>
+
+          <div className="border border-border rounded-lg p-6 bg-card hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200">
+            <div className="flex flex-col items-center text-center">
+              <div className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center mb-4">
+                <Unlink className="h-6 w-6 text-foreground" />
+              </div>
+              <h3 className="font-mono text-sm font-medium text-foreground mb-3">
+                DIY with No-Code Tools
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Zapier and Make work until they don't. Fragile connections break. No one knows how to fix them when the creator leaves.
+              </p>
             </div>
           </div>
         </div>
