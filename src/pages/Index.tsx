@@ -1,5 +1,5 @@
 
-import { ArrowRight, Zap, GitBranch, Users, Mail, Database, Workflow, Keyboard, AlertCircle, Network, Clock } from "lucide-react";
+import { ArrowRight, Zap, GitBranch, Users, Mail, Database, Workflow, Keyboard, AlertCircle, Network, Clock, ShieldCheck, Calendar, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
@@ -167,6 +167,64 @@ const Index = () => {
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   Your team spends time on busywork instead of revenue-generating activities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Everything Automation Difference */}
+      <section className="bg-muted/30 py-16">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-light text-foreground mb-4">
+              The Everything Automation Difference
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Systems built to work from day one—not experimental projects that take months to deliver.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="border border-border rounded-lg p-6 bg-card hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200">
+              <div className="flex flex-col items-center text-center">
+                <div className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center mb-4">
+                  <ShieldCheck className="h-6 w-6 text-foreground" />
+                </div>
+                <h3 className="font-mono text-sm font-medium text-foreground mb-3">
+                  Battle-Tested Systems
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  Every system has been deployed, refined, and proven across multiple businesses. No experimental builds.
+                </p>
+              </div>
+            </div>
+
+            <div className="border border-border rounded-lg p-6 bg-card hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200">
+              <div className="flex flex-col items-center text-center">
+                <div className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center mb-4">
+                  <Calendar className="h-6 w-6 text-foreground" />
+                </div>
+                <h3 className="font-mono text-sm font-medium text-foreground mb-3">
+                  Deploy in Days, Not Months
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  Clear scope, fixed timeline, working system. No endless discovery calls or scope creep.
+                </p>
+              </div>
+            </div>
+
+            <div className="border border-border rounded-lg p-6 bg-card hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200">
+              <div className="flex flex-col items-center text-center">
+                <div className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center mb-4">
+                  <TrendingUp className="h-6 w-6 text-foreground" />
+                </div>
+                <h3 className="font-mono text-sm font-medium text-foreground mb-3">
+                  Built for Scale
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  Systems designed to handle growth from day one. Add complexity later without rebuilding from scratch.
                 </p>
               </div>
             </div>
