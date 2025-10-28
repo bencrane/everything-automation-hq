@@ -141,43 +141,43 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="w-12 h-12 bg-background rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm border border-border">
+          <div className="grid md:grid-cols-4 gap-6">
+            <div className="border border-border rounded-lg p-6 bg-card">
+              <div className="w-12 h-12 bg-muted rounded-full flex items-center justify-center mx-auto mb-4 border border-border">
                 <span className="font-mono text-sm font-medium text-foreground">01</span>
               </div>
-              <h3 className="font-mono text-sm font-medium text-foreground mb-2">Book</h3>
-              <p className="text-sm text-muted-foreground">
+              <h3 className="font-mono text-sm font-medium text-foreground mb-2 text-center">Book</h3>
+              <p className="text-sm text-muted-foreground text-center">
                 Schedule a 30-minute scoping call to discuss your specific automation needs.
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="w-12 h-12 bg-background rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm border border-border">
+            <div className="border border-border rounded-lg p-6 bg-card">
+              <div className="w-12 h-12 bg-muted rounded-full flex items-center justify-center mx-auto mb-4 border border-border">
                 <span className="font-mono text-sm font-medium text-foreground">02</span>
               </div>
-              <h3 className="font-mono text-sm font-medium text-foreground mb-2">Intake</h3>
-              <p className="text-sm text-muted-foreground">
+              <h3 className="font-mono text-sm font-medium text-foreground mb-2 text-center">Intake</h3>
+              <p className="text-sm text-muted-foreground text-center">
                 Complete a detailed intake form covering your tools, data sources, and workflows.
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="w-12 h-12 bg-background rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm border border-border">
+            <div className="border border-border rounded-lg p-6 bg-card">
+              <div className="w-12 h-12 bg-muted rounded-full flex items-center justify-center mx-auto mb-4 border border-border">
                 <span className="font-mono text-sm font-medium text-foreground">03</span>
               </div>
-              <h3 className="font-mono text-sm font-medium text-foreground mb-2">Build</h3>
-              <p className="text-sm text-muted-foreground">
+              <h3 className="font-mono text-sm font-medium text-foreground mb-2 text-center">Build</h3>
+              <p className="text-sm text-muted-foreground text-center">
                 Your system is built and tested in n8n with clear documentation and handoff notes.
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="w-12 h-12 bg-background rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm border border-border">
+            <div className="border border-border rounded-lg p-6 bg-card">
+              <div className="w-12 h-12 bg-muted rounded-full flex items-center justify-center mx-auto mb-4 border border-border">
                 <span className="font-mono text-sm font-medium text-foreground">04</span>
               </div>
-              <h3 className="font-mono text-sm font-medium text-foreground mb-2">Delivery</h3>
-              <p className="text-sm text-muted-foreground">
+              <h3 className="font-mono text-sm font-medium text-foreground mb-2 text-center">Delivery</h3>
+              <p className="text-sm text-muted-foreground text-center">
                 Receive your working automation system with setup instructions and support docs.
               </p>
             </div>
