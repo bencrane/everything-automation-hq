@@ -235,7 +235,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-light text-foreground mb-4">
-              The Everything Automation Difference
+              Experience The <span className="italic">Everything Automation</span><sup className="text-xs">™</sup> Difference
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Systems built to work from day one—not experimental projects that take months to deliver.
