@@ -1,5 +1,5 @@
 
-import { ArrowRight, Zap, GitBranch, Users, Mail, Database, Workflow } from "lucide-react";
+import { ArrowRight, Zap, GitBranch, Users, Mail, Database, Workflow, Keyboard, AlertCircle, Network, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
@@ -84,6 +84,92 @@ const Index = () => {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* The Problem Section */}
+      <section className="max-w-6xl mx-auto px-6 py-16">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl font-light text-foreground mb-4">
+            Your team is drowning in manual work
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Every day, hours vanish into repetitive tasks that could run on autopilot.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="border border-border rounded-lg p-6 hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200">
+            <div className="flex items-start space-x-4">
+              <div className="flex-shrink-0">
+                <div className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center">
+                  <Keyboard className="h-5 w-5 text-foreground" />
+                </div>
+              </div>
+              <div className="flex-1">
+                <h3 className="font-mono text-sm font-medium text-foreground mb-2">
+                  Manual Data Entry
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  Copying information between systems, checking for errors, fixing mistakes.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="border border-border rounded-lg p-6 hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200">
+            <div className="flex items-start space-x-4">
+              <div className="flex-shrink-0">
+                <div className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center">
+                  <AlertCircle className="h-5 w-5 text-foreground" />
+                </div>
+              </div>
+              <div className="flex-1">
+                <h3 className="font-mono text-sm font-medium text-foreground mb-2">
+                  Inconsistent Follow-up
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  Leads fall through cracks, customers don't get timely responses, nothing is systematic.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="border border-border rounded-lg p-6 hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200">
+            <div className="flex items-start space-x-4">
+              <div className="flex-shrink-0">
+                <div className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center">
+                  <Network className="h-5 w-5 text-foreground" />
+                </div>
+              </div>
+              <div className="flex-1">
+                <h3 className="font-mono text-sm font-medium text-foreground mb-2">
+                  Scattered Information
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  Data lives in 5 different tools with no single source of truth.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="border border-border rounded-lg p-6 hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200">
+            <div className="flex items-start space-x-4">
+              <div className="flex-shrink-0">
+                <div className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center">
+                  <Clock className="h-5 w-5 text-foreground" />
+                </div>
+              </div>
+              <div className="flex-1">
+                <h3 className="font-mono text-sm font-medium text-foreground mb-2">
+                  No Time for Growth
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  Your team spends time on busywork instead of revenue-generating activities.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
