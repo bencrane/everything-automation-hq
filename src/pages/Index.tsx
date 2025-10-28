@@ -2,35 +2,42 @@
 import { ArrowRight, Zap, GitBranch, Users, Mail, Database, Workflow, Keyboard, AlertCircle, Network, Clock, ShieldCheck, Calendar, TrendingUp, Wrench, Unlink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { Link } from "react-router-dom";
 
 const automationSystems = [
   {
     name: "Cold Outreach Follow-up",
+    slug: "cold-outreach-follow-up",
     description: "Automated sequences that nurture cold leads through personalized touchpoints based on engagement signals.",
     icon: Mail,
   },
   {
     name: "CRM Enrichment",
+    slug: "crm-enrichment",
     description: "Pull data from multiple sources to automatically enrich contact records with company info, social profiles, and behavioral data.",
     icon: Database,
   },
   {
     name: "Webinar-to-Email Sync",
+    slug: "webinar-to-email-sync",
     description: "Seamlessly move webinar attendees through email sequences based on attendance, engagement, and registration status.",
     icon: Users,
   },
   {
     name: "Auto-Tagged Lead Pipelines",
+    slug: "auto-tagged-lead-pipelines",
     description: "Intelligent lead scoring and tagging based on behavior, source, and qualification criteria across all touchpoints.",
     icon: Zap,
   },
   {
     name: "Content Distribution Flow",
+    slug: "content-distribution-flow",
     description: "Automatically distribute content across channels, track performance, and trigger follow-up actions based on engagement.",
     icon: GitBranch,
   },
   {
     name: "Customer Onboarding Automation",
+    slug: "customer-onboarding-automation",
     description: "Streamlined onboarding sequences that adapt based on customer type, purchase tier, and completion status.",
     icon: Workflow,
   },
@@ -304,9 +311,10 @@ const Index = () => {
           {automationSystems.map((system, index) => {
             const IconComponent = system.icon;
             return (
-              <div
+              <Link
                 key={index}
-                className="group border border-border rounded-lg p-6 hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200 cursor-pointer"
+                to={`/systems/${system.slug}`}
+                className="group border border-border rounded-lg p-6 hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200 cursor-pointer block"
               >
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0">
@@ -323,7 +331,7 @@ const Index = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>
