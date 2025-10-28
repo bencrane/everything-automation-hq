@@ -349,14 +349,14 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
             <div className="border border-border rounded-lg p-6 bg-card">
               <div className="w-12 h-12 bg-muted rounded-full flex items-center justify-center mx-auto mb-4 border border-border">
                 <span className="font-mono text-sm font-medium text-foreground">01</span>
               </div>
               <h3 className="font-mono text-sm font-medium text-foreground mb-2 text-center">Book</h3>
               <p className="text-sm text-muted-foreground text-center">
-                Schedule a 30-minute scoping call to discuss your specific automation needs.
+                Schedule a 30-minute call to discuss your specific automation needs.
               </p>
             </div>
 
@@ -364,9 +364,9 @@ const Index = () => {
               <div className="w-12 h-12 bg-muted rounded-full flex items-center justify-center mx-auto mb-4 border border-border">
                 <span className="font-mono text-sm font-medium text-foreground">02</span>
               </div>
-              <h3 className="font-mono text-sm font-medium text-foreground mb-2 text-center">Intake</h3>
+              <h3 className="font-mono text-sm font-medium text-foreground mb-2 text-center">Kickoff</h3>
               <p className="text-sm text-muted-foreground text-center">
-                Complete a detailed intake form covering your tools, data sources, and workflows.
+                Quick kickoff call to confirm your tools, data sources, and workflows. We handle the rest.
               </p>
             </div>
 
@@ -374,19 +374,9 @@ const Index = () => {
               <div className="w-12 h-12 bg-muted rounded-full flex items-center justify-center mx-auto mb-4 border border-border">
                 <span className="font-mono text-sm font-medium text-foreground">03</span>
               </div>
-              <h3 className="font-mono text-sm font-medium text-foreground mb-2 text-center">Build</h3>
+              <h3 className="font-mono text-sm font-medium text-foreground mb-2 text-center">Deploy</h3>
               <p className="text-sm text-muted-foreground text-center">
-                Your system is built and tested in n8n with clear documentation and handoff notes.
-              </p>
-            </div>
-
-            <div className="border border-border rounded-lg p-6 bg-card">
-              <div className="w-12 h-12 bg-muted rounded-full flex items-center justify-center mx-auto mb-4 border border-border">
-                <span className="font-mono text-sm font-medium text-foreground">04</span>
-              </div>
-              <h3 className="font-mono text-sm font-medium text-foreground mb-2 text-center">Delivery</h3>
-              <p className="text-sm text-muted-foreground text-center">
-                Receive your working automation system with setup instructions and support docs.
+                Your system is built on production-grade infrastructure and delivered ready to run. No setup required on your end.
               </p>
             </div>
           </div>
