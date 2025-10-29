@@ -2,7 +2,6 @@
 import { ArrowRight, Zap, GitBranch, Users, Mail, Database, Workflow, Keyboard, AlertCircle, Network, Clock, ShieldCheck, Calendar, TrendingUp, Wrench, Unlink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { Link } from "react-router-dom";
 
 const automationSystems = [
   {
@@ -311,10 +310,9 @@ const Index = () => {
           {automationSystems.map((system, index) => {
             const IconComponent = system.icon;
             return (
-              <Link
+              <div
                 key={index}
-                to={`/systems/${system.slug}`}
-                className="group border border-border rounded-lg p-6 hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200 cursor-pointer block"
+                className="group border border-border rounded-lg p-6 hover:border-muted-foreground/50 hover:shadow-sm transition-all duration-200"
               >
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0">
@@ -331,7 +329,7 @@ const Index = () => {
                     </p>
                   </div>
                 </div>
-              </Link>
+              </div>
             );
           })}
         </div>
